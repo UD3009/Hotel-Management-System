@@ -596,22 +596,11 @@ int main()
 
 
     // Intro Screen
-    cout << "======================================"<<endl;
-    cout << "|| ZealTyro Hotel Management System ||"<<endl;
-    cout << "======================================"<<endl<<endl;
-    cout << "This Management System is developed as a project of the course - CSC 284\n";
-    cout << "Given by our honerable faculty - ["<<YELLOW<<"ASM Shakil Ahamed"<<RESET<<"]\n\n";
-    cout << BOLD << "DESCRIPTION:\n-----------\n" << RESET;
+   
     cout << "A complete solution to manage your hotel with multiple admins and a super admin. Where only the super admin"
          " can add new admins. All admins can manage the rooms, book a room for the customers, check all rooms, "
          "edit price of the rooms, add new customers, and vacate a room when customers leave! \n\n";
-    cout << BOLD << "DEVELOPERS:\n-----------\n" << RESET;
-    cout << "Students of International University of Business Agriculture and Technology";
-    cout << "\n[NAME:"<<BLUE<<" Afsana Meem"<<RESET<<", ID:"<<BLUE<<" 23203063"<<RESET<<"]\t";
-    cout << "[NAME:"<<BLUE<<" Shanjida Afrin"<<RESET<<", ID:"<<BLUE<<" 23103290"<<RESET<<"]\t";
-    cout << "\n[NAME:"<<BLUE<<" Sumayia Akter"<<RESET<<", ID:"<<BLUE<<" 22303423"<<RESET<<"]\t";
-    cout << "[NAME:"<<BLUE<<" Sumiaya Afrin"<<RESET<<", ID:"<<BLUE<<" 23203130"<<RESET<<"]\t";
-    cout << "\n[NAME:"<<BLUE<<" Md. Mahedi Zaman Zaber"<<RESET<<", ID:"<<BLUE<<" 23203134"<<RESET<<"]\n"<<endl;
+   
     cout << "\nYou are just one step away from having your hotel management system!";
     cout << "\nPress Enter To Continue...";
     cin.get();
